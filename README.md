@@ -11,9 +11,8 @@ A simple modular restaurant website inspired by Genshin Impact's Wanmin Restaura
 - Custom font integration for stylized, game-inspired appearance
 - Lightweight and maintainable structure
 
-<pre lang="markdown">
 ## Project Structure
-```
+```bash
 wanmin-restaurant/
 ├── dist/ # Webpack output
 ├── src/
@@ -26,7 +25,7 @@ wanmin-restaurant/
 ├── package.json # Project metadata and scripts
 └── README.md
 ```
-</pre>
+
 ## Setup and Usage
 
 1. Clone the repository:
