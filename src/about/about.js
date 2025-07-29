@@ -1,8 +1,9 @@
 import "./aboutStyles.css";
-import guobaGif from "./guoba-genshin-impact.gif";
+import guobaGif from "./gouba-genshin-impact.gif";
 
 export default function aboutContainer() {
     const aboutWanminDiv = document.createElement("div");
+    aboutWanminDiv.classList.add("about-wanmin-container");
     aboutWanminDiv.innerHTML = `
                                 <img src=${guobaGif} alt="Guoba smiling gif" class="guoba-img">
                                 <div class="about-wanmin-text">
