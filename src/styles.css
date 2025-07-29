@@ -70,3 +70,35 @@ body {
   font-size: 0.9rem;
   color: #333;
 }
+
+nav {
+    background-color: #fffbe6;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em;
+    border-bottom: 1px solid #d0a85c;
+}
+
+nav > button {
+    padding: 0.2em 1em;
+    background-color: #f9f1e7;
+    color: #4b2e0f;
+    border: 2px solid #d0a85c;
+    font-size: 1rem;
+    font-family: serif;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+nav > button:hover {
+    background-color: #fff3cc;
+    color: #b66e12;
+    border-color: #b66e12;
+}
+
+nav button:active {
+  background-color: #ffe69b;
+  color: #8b3e0a;
+  border-color: #8b3e0a;
+}
