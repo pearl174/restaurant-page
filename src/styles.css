@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+.restaurant-banner {
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.chefs-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  margin: 2rem 0;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.chef-card {
+  background: #f9f1e7; /* parchment / scroll paper vibe */
+  border: 2px solid #d0a85c; /* gold-ish trim */
+  border-radius: 12px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.chef-card:hover {
+  transform: scale(1.05);
+}
+
+.chef-card img {
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+}
+
+.chef-card h3 {
+  color: #b66e12; /* deep orange / Liyue gold */
+  margin-bottom: 0.5rem;
+  font-family: 'Cinzel', serif; /* or any Genshin-ish font */
+}
+
+.chef-card p {
+  font-size: 0.95rem;
+  color: #333;
+}
