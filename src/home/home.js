@@ -1,4 +1,4 @@
-import "./menuStyles.css";
+import "./homeStyles.css";
 import restaurantBannerImg from "./wanmin-restaurant.jpg";
 import chefMao from "./chefmao.png";
 import xiangling from "./xiangling.png";
