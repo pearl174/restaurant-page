@@ -23,13 +23,13 @@ function home() {
     chefSectionDiv.innerHTML = `<div class="chef-card">
                                 <img src=${xiangling} alt="Xiangling">
                                 <h3>Xiangling</h3>
-                                <p>The Pyro prodigy behind every fiery dish. Passionate, fearless, and just a little too comfortable with Jueyun chilis.</p>
+                                <p>The head chef of Wanmin Restaurant. Passionate and cheery, the best to ever do it! Always with her trusty companion, Guoba, experimenting with new and novel ingredients.</p>
                                 </div>
 
                                 <div class="chef-card">
                                 <img src=${chefMao} alt="Chef Mao">
                                 <h3>Chef Mao</h3>
-                                <p>The founder and backbone of Wanmin. Calm, collected, and master of traditional Liyue recipes — Guoba’s personal favorite.</p>
+                                <p>The founder and backbone of Wanmin. Calm, collected, and master of traditional Liyue recipes — Guoba's personal favorite.</p>
                                 </div>`
     parentDiv.appendChild(chefSectionDiv);
     return parentDiv;
