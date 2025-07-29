@@ -1,7 +1,7 @@
 import homeContainer from "./home/home.js";
 import menuContainer from "./menu/menu.js";
 import aboutContainer from "./about/about.js";
-// import "./styles.css";
+import "./styles.css";
 
 const home = document.querySelector("#home");
 const menu = document.querySelector("#menu");
